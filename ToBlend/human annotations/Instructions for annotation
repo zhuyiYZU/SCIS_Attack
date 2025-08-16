@@ -1,0 +1,24 @@
+-------------For Human Experts-------------
+
+Instructions for each instance, you should: 
+1. Score 1~7 (1 means very bad, 7 means very good) on the coherence score and fluence score for the column of 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'.
+* Coherence: The contextual information of the given short text (around 200 words) should logically make sense, i.e., maintaining topic consistency and logical sequence. 
+* Fluency: The text should read naturally, mimicking the style and syntax of human natural language.
+
+2. From the column of 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', select the best one that you think has the highest probability that writes by a real human and put the number in the column of 'best' (Normally, the best one should be the one that possesses the highest coherence and fluency scores you annotated in the previous step).
+
+Do note that:
+1. We have 6 files and 5 instances each. Completing all labeling, for one instance, should take less than 6 mins. But feel free to take more time if necessary.
+2. All texts selected are only a slice of 200 tokens of their original source, so please do not consider the potential incomplete sentence at the end of the text as one of your scoring criteria.
+
+Examples:
+1. [As Muslim institutions of higher learning , the madrasa had the legal designation of waqf . In central and eastern Islamic lands , the view that the madrasa , as a religious trust for pious educational endeavors , is the institutional and social prec ursory for the mosque ( Dar ul -Kh air - ) is prevalent ( Ibd ah 198 5 ; N. A hmad 198 7 ) . The madrasa served as a place of religious instruction and a center for m ak tab ( schools ) . It provided lodging , board , and medical care for the instructors and m ustaf a ( students ) . The madrasa was both a place of instruction for religious m at terial and a living environment . The madrasa therefore served two purposes : the disse mination and perpet uation of the teachings of the Islamic faith and the pro p aga tion of Islamic culture and heritage . The mad rasa was the first step in the path to higher education]
+[Coherence: 4, Fluency: 5]
+
+2. [Boston has a continental climate with some maritime influence , and using the −3 °C ( 27 °F ) coldest month ( January ) isotherm , the city lies within USDA hardiness zone 5 b , with an average annual minimum temperature of around −2 .2 ° C ( 27 ° F ) . Bostons climate is compar atively warm for the latitude due to its location within the Northeastern United States . Boston is often identified as a coastal city , and experiences regular and strong effects of maritime climate . However , since Boston is far from the most eastern coastline of the state , its climate has little maritime influence . The effects of the ocean can be seen in the average rainfall rate ( around 4 3 inches or 1 09 centim et ers of snow per year ) , a rain shadow that prevents heavy rainfall from accumulating in the summer and a generally war mer average annual temperate , but the city is rarely affected by extreme cold ,]
+[Coherence: 6, Fluency: 7]
+
+3. [South Korea : The event was held in Seoul , which hosted the 1988 Summer Olympics , on April 27 . Intended torchbearers Choi Seung-kook and Park Won-sun boycotted the games . To demonstrate their disapproval, many South Koreans wore black rib ons to mourn the massacre. http : //en . w ikinews . org . 30 Nov . 2 0 1 6 . Korea , South - 19 88 Summer Olympics . This website is not to be accredited with any additional information about this event . The images were taken and used in this website by the users . http : // www . z iman . co . kr . h o d oj 69 0 . 46 . 01 0 . ↑ h t t p : //www.al jazeera . co m / program /ins igh t a l/ asia pacif is m / 2 0 1 7/ 0 5 / 01 3  / 8 4 6 5 492 . 27 0162 2 < eos >.]
+[Coherence: 1, Fluency: 2]
+
+Please answer the scores using integer numbers.
