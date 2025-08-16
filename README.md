@@ -1,4 +1,4 @@
-# SCIS-Demo: A Demonstration System for Semantically Guided Detection Evasion in LLM-Generated Tex
+# SCIS-Demo: A Demonstration System for Semantically Guided Detection Evasion in LLM-Generated Text
 
 
 
